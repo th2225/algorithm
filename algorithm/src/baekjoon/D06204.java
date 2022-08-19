@@ -20,7 +20,7 @@ public class D06204 {
 			for (int i = 0; i < 3; i++) {
 				if (t / arr[i] != 0) {
 					min[i] = t / arr[i];
-					if (t % arr[i] == 0) { // 큰수로 ㅁ완전히 나누어 떨어지면 더이상 진행할 필요 없으므로 for문 빠져나감
+					if (t % arr[i] == 0) { // 큰수로 완전히 나누어 떨어지면 더이상 진행할 필요 없으므로 for문 빠져나감
 						break;
 					} else {
 						t = t - t / arr[i] * arr[i];  // 그 외의 경우 t를 t - t / arr[i] * arr[i] 로 변경 후 for문 계속 진행

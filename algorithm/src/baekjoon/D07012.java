@@ -8,6 +8,7 @@ public class D07012 {
 	public static void main(String[] args) {
 		// https://www.acmicpc.net/problem/4796 캠핑
 		// 쉬운거라 주석 굳이 필요 없을 듯
+		// 테스트케이스만 하나 추가 [입력 : 3 8 20  출력 : 9]
 
 		Scanner sc = new Scanner(System.in);
 
